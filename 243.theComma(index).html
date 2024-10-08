@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/243.header_footer.css">
+    <link rel="stylesheet" href="./css/243.theComma(index).css">
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script> 
+
+</head>
+<body>
+<div id="wrap">
+    <div class="top_banner">
+        <div class="tb_item">세로 방향으로 돌아가는 탑 배너 메세지</div>
+        <div class="tb_item">여러분 <span style="color:red">복습</span>좀...</div>
+        <div class="tb_item">취업 안할거임??</div>
+        <div class="tb_item">오늘은 치팅데이</div>
+    </div>
+
+    <div class="header">
+        <div class="h_top">
+            <div class="logo">
+                <a href="243.theComma(index).html">로고</a>
+            </div>
+        </div>
+        <div class="nav">
+            <ul>
+                <li class="nav_item">
+                    <a href="./244.theComma(product).html?cateNo=0">BEST</a>
+                </li>
+                <li class="nav_item">
+                    <a href="./244.theComma(product).html?cateNo=1">NEW 5%</a>
+                </li>
+                <li class="nav_item">
+                    <a href="./244.theComma(product).html?cateNo=2">OUTER</a>
+                </li>
+                <li class="nav_item">
+                    <a href="./244.theComma(product).html?cateNo=3">TOP</a>
+                </li>
+                <li class="nav_item">
+                    <a href="./244.theComma(product).html?cateNo=4">BOTTOM</a>
+                </li>
+                <li class="nav_item">
+                    <a href="./244.theComma(product).html?cateNo=5">ACC</a>
+                </li>
+                <li class="nav_item">
+                    <a href="./244.theComma(product).html?cateNo=6">BAG&SHOES</a>
+                </li>
+            </ul>
+
+            <div class="nav_pan">
+                <div class="contents_area">
+                    <div class="nav_pan_item">
+                        <div class="menu">menu1</div>
+                    </div>
+                    <div class="nav_pan_item">
+                        <div class="menu menu_L">menu2</div>
+                        <div class="menu menu_R">menu2</div>
+                    </div>
+                    <div class="nav_pan_item">
+                        <div class="menu">menu3</div> 
+                    </div>
+                    <div class="nav_pan_item">
+                        <div class="menu">menu4</div>
+                    </div>
+                    <div class="nav_pan_item">
+                        <div class="menu">menu5</div>
+                    </div>
+                    <div class="nav_pan_item">
+                        <div class="menu">menu6</div>
+                    </div>
+                    <div class="nav_pan_item">
+                        <div class="menu">menu7</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="main_banner">
+            <div class="banner" id="banner1"></div>
+            <div class="banner" id="banner2"></div>
+            <div class="banner" id="banner3"></div>
+
+            <div class="btn_slide" id="btnL"></div>
+            <div class="btn_slide" id="btnR"></div>
+
+            <div class="indi_box">
+                <!-- <div class="indi active"></div>
+                <div class="indi"></div>
+                <div class="indi"></div> -->
+            </div>
+        </div>
+        
+        <div class="sec contents_area" id="weekly_ranking">
+            <div class="sec_title item_init">WEEKLY RANKING</div>
+            <div class="sec_body">
+                <ul class="sec_item_box"> 
+                    <li class="w_ranking_item item_init">
+                        <div class="sec_item_img">
+                            <a href="#">
+                                <img src="./img/theComma/items/ranking/1.jpg" alt="">
+                                <div class="ranking_no">1</div>
+                            </a>
+                        </div>
+                        <div class="sec_item_desc">
+                            <div class="item_desc_title">더콤마</div>
+                            <div class="o_price">300,000원</div>
+                            <div class="s_price">200,000원</div>
+                            <div class="item_desc">상품에 대한 설명이 표시됩니다.</div>
+                        </div>
+                    </li>
+                    <li class="w_ranking_item item_init">
+                        <div class="sec_item_img">
+                            <a href="#">
+                                <img src="./img/theComma/items/ranking/2.jpg" alt="">
+                                <div class="ranking_no">2</div>
+                            </a>
+                        </div>
+                        <div class="sec_item_desc">
+                            <div class="item_desc_title">더콤마</div>
+                            <div class="o_price">300,000원</div>
+                            <div class="s_price">200,000원</div>
+                            <div class="item_desc">상품에 대한 설명이 표시됩니다.</div>
+                        </div>
+                    </li>
+                    <li class="w_ranking_item item_init">
+                        <div class="sec_item_img">
+                            <a href="#">
+                                <img src="./img/theComma/items/ranking/3.jpg" alt="">
+                                <div class="ranking_no">3</div>
+                            </a>
+                        </div>
+                        <div class="sec_item_desc">
+                            <div class="item_desc_title">더콤마</div>
+                            <div class="o_price">300,000원</div>
+                            <div class="s_price">200,000원</div>
+                            <div class="item_desc">상품에 대한 설명이 표시됩니다.</div>
+                        </div>
+                    </li>
+                    <li class="w_ranking_item item_init">
+                        <div class="sec_item_img">
+                            <a href="#">
+                                <img src="./img/theComma/items/ranking/4.jpg" alt="">
+                                <div class="ranking_no">4</div>
+                            </a>
+                        </div>
+                        <div class="sec_item_desc">
+                            <div class="item_desc_title">더콤마</div>
+                            <div class="o_price">300,000원</div>
+                            <div class="s_price">200,000원</div>
+                            <div class="item_desc">상품에 대한 설명이 표시됩니다.</div>
+                        </div>
+                    </li>
+                    <li class="w_ranking_item item_init">
+                        <div class="sec_item_img">
+                            <a href="#">
+                                <img src="./img/theComma/items/ranking/5.jpg" alt="">
+                                <div class="ranking_no">5</div>
+                            </a>
+                        </div>
+                        <div class="sec_item_desc">
+                            <div class="item_desc_title">더콤마</div>
+                            <div class="o_price">300,000원</div>
+                            <div class="s_price">200,000원</div>
+                            <div class="item_desc">상품에 대한 설명이 표시됩니다.</div>
+                        </div>
+                    </li>
+                    <li class="w_ranking_item item_init">
+                        <div class="sec_item_img">
+                            <a href="#">
+                                <img src="./img/theComma/items/ranking/6.jpg" alt="">
+                                <div class="ranking_no">6</div>
+                            </a>
+                        </div>
+                        <div class="sec_item_desc">
+                            <div class="item_desc_title">더콤마</div>
+                            <div class="o_price">300,000원</div>
+                            <div class="s_price">200,000원</div>
+                            <div class="item_desc">상품에 대한 설명이 표시됩니다.</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="sec contents_area" id="best">
+            <div class="sec_title item_init">BEST ITEM</div>
+            <div class="sec_body">
+                <ul class="sec_item_box"> 
+                    <!-- <li class="best_item">
+                        <div class="sec_item_img">
+                            <a href="#">
+                                <img src="./img/theComma/items/best/1.jpg" alt=""> 
+                            </a>
+                        </div>
+                        <div class="sec_item_desc">
+                            <div class="item_desc_title">더콤마</div>
+                            <div class="o_price">300,000원</div>
+                            <div class="s_price">200,000원</div>
+                            <div class="item_desc">상품에 대한 설명이 표시됩니다.</div>
+                        </div>
+                    </li>  
+
+                    <li class="best_item">
+                        <div class="sec_item_img">
+                            <a href="#">
+                                <img src="./img/theComma/items/best/2.jpg" alt=""> 
+                            </a>
+                        </div>
+                        <div class="sec_item_desc">
+                            <div class="item_desc_title">더콤마</div>
+                            <div class="o_price">300,000원</div>
+                            <div class="s_price">200,000원</div>
+                            <div class="item_desc">상품에 대한 설명이 표시됩니다.</div>
+                        </div>
+                    </li>  
+
+                    <li class="best_item">
+                        <div class="sec_item_img">
+                            <a href="#">
+                                <img src="./img/theComma/items/best/3.jpg" alt=""> 
+                            </a>
+                        </div>
+                        <div class="sec_item_desc">
+                            <div class="item_desc_title">더콤마</div>
+                            <div class="o_price">300,000원</div>
+                            <div class="s_price">200,000원</div>
+                            <div class="item_desc">상품에 대한 설명이 표시됩니다.</div>
+                        </div>
+                    </li>  
+
+                    <li class="best_item">
+                        <div class="sec_item_img">
+                            <a href="#">
+                                <img src="./img/theComma/items/best/4.jpg" alt=""> 
+                            </a>
+                        </div>
+                        <div class="sec_item_desc">
+                            <div class="item_desc_title">더콤마</div>
+                            <div class="o_price">300,000원</div>
+                            <div class="s_price">200,000원</div>
+                            <div class="item_desc">상품에 대한 설명이 표시됩니다.</div>
+                        </div>
+                    </li>  
+                    <li class="best_item">
+                        <div class="sec_item_img">
+                            <a href="#">
+                                <img src="./img/theComma/items/best/1.jpg" alt=""> 
+                            </a>
+                        </div>
+                        <div class="sec_item_desc">
+                            <div class="item_desc_title">더콤마</div>
+                            <div class="o_price">300,000원</div>
+                            <div class="s_price">200,000원</div>
+                            <div class="item_desc">상품에 대한 설명이 표시됩니다.</div>
+                        </div>
+                    </li>  
+
+                    <li class="best_item">
+                        <div class="sec_item_img">
+                            <a href="#">
+                                <img src="./img/theComma/items/best/2.jpg" alt=""> 
+                            </a>
+                        </div>
+                        <div class="sec_item_desc">
+                            <div class="item_desc_title">더콤마</div>
+                            <div class="o_price">300,000원</div>
+                            <div class="s_price">200,000원</div>
+                            <div class="item_desc">상품에 대한 설명이 표시됩니다.</div>
+                        </div>
+                    </li>  
+
+                    <li class="best_item">
+                        <div class="sec_item_img">
+                            <a href="#">
+                                <img src="./img/theComma/items/best/3.jpg" alt=""> 
+                            </a>
+                        </div>
+                        <div class="sec_item_desc">
+                            <div class="item_desc_title">더콤마</div>
+                            <div class="o_price">300,000원</div>
+                            <div class="s_price">200,000원</div>
+                            <div class="item_desc">상품에 대한 설명이 표시됩니다.</div>
+                        </div>
+                    </li>  
+
+                    <li class="best_item">
+                        <div class="sec_item_img">
+                            <a href="#">
+                                <img src="./img/theComma/items/best/4.jpg" alt=""> 
+                            </a>
+                        </div>
+                        <div class="sec_item_desc">
+                            <div class="item_desc_title">더콤마</div>
+                            <div class="o_price">300,000원</div>
+                            <div class="s_price">200,000원</div>
+                            <div class="item_desc">상품에 대한 설명이 표시됩니다.</div>
+                        </div>
+                    </li>   -->
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="sec contents_area" id="new">
+            <div class="sec_title item_init">NEW 5%</div>
+            <div class="sec_body">
+                <ul class="sec_item_box"> 
+                    <!-- <li class="new_item">
+                        <div class="sec_item_img">
+                            <a href="#">
+                                <img src="./img/theComma/items/new/1.jpg" alt=""> 
+                                <img src="./img/theComma/items/new/8.jpg" alt=""> 
+                            </a>
+                        </div>
+                        <div class="sec_item_desc">
+                            <div class="item_desc_title">더콤마</div>
+                            <div class="o_price">300,000원</div>
+                            <div class="s_price">200,000원</div>
+                            <div class="item_desc">상품에 대한 설명이 표시됩니다.</div>
+                        </div>
+                    </li>  
+
+                    <li class="new_item">
+                        <div class="sec_item_img">
+                            <a href="#">
+                                <img src="./img/theComma/items/new/2.jpg" alt=""> 
+                                <img src="./img/theComma/items/new/6.jpg" alt=""> 
+                            </a>
+                        </div>
+                        <div class="sec_item_desc">
+                            <div class="item_desc_title">더콤마</div>
+                            <div class="o_price">300,000원</div>
+                            <div class="s_price">200,000원</div>
+                            <div class="item_desc">상품에 대한 설명이 표시됩니다.</div>
+                        </div>
+                    </li>  
+
+                    <li class="new_item">
+                        <div class="sec_item_img">
+                            <a href="#">
+                                <img src="./img/theComma/items/new/3.jpg" alt=""> 
+                                <img src="./img/theComma/items/new/1.jpg" alt=""> 
+                            </a>
+                        </div>
+                        <div class="sec_item_desc">
+                            <div class="item_desc_title">더콤마</div>
+                            <div class="o_price">300,000원</div>
+                            <div class="s_price">200,000원</div>
+                            <div class="item_desc">상품에 대한 설명이 표시됩니다.</div>
+                        </div>
+                    </li>  
+
+                    <li class="new_item">
+                        <div class="sec_item_img">
+                            <a href="#">
+                                <img src="./img/theComma/items/new/4.jpg" alt=""> 
+                                <img src="./img/theComma/items/new/1.jpg" alt=""> 
+                            </a>
+                        </div>
+                        <div class="sec_item_desc">
+                            <div class="item_desc_title">더콤마</div>
+                            <div class="o_price">300,000원</div>
+                            <div class="s_price">200,000원</div>
+                            <div class="item_desc">상품에 대한 설명이 표시됩니다.</div>
+                        </div>
+                    </li>  
+                    <li class="new_item">
+                        <div class="sec_item_img">
+                            <a href="#">
+                                <img src="./img/theComma/items/new/5.jpg" alt=""> 
+                                <img src="./img/theComma/items/new/1.jpg" alt=""> 
+                            </a>
+                        </div>
+                        <div class="sec_item_desc">
+                            <div class="item_desc_title">더콤마</div>
+                            <div class="o_price">300,000원</div>
+                            <div class="s_price">200,000원</div>
+                            <div class="item_desc">상품에 대한 설명이 표시됩니다.</div>
+                        </div>
+                    </li>  
+
+                    <li class="new_item">
+                        <div class="sec_item_img">
+                            <a href="#">
+                                <img src="./img/theComma/items/new/6.jpg" alt=""> 
+                                <img src="./img/theComma/items/new/1.jpg" alt=""> 
+                            </a>
+                        </div>
+                        <div class="sec_item_desc">
+                            <div class="item_desc_title">더콤마</div>
+                            <div class="o_price">300,000원</div>
+                            <div class="s_price">200,000원</div>
+                            <div class="item_desc">상품에 대한 설명이 표시됩니다.</div>
+                        </div>
+                    </li>  
+
+                    <li class="new_item">
+                        <div class="sec_item_img">
+                            <a href="#">
+                                <img src="./img/theComma/items/new/7.jpg" alt=""> 
+                                <img src="./img/theComma/items/new/1.jpg" alt=""> 
+                            </a>
+                        </div>
+                        <div class="sec_item_desc">
+                            <div class="item_desc_title">더콤마</div>
+                            <div class="o_price">300,000원</div>
+                            <div class="s_price">200,000원</div>
+                            <div class="item_desc">상품에 대한 설명이 표시됩니다.</div>
+                        </div>
+                    </li>  
+
+                    <li class="new_item">
+                        <div class="sec_item_img">
+                            <a href="#">
+                                <img src="./img/theComma/items/new/8.jpg" alt=""> 
+                                <img src="./img/theComma/items/new/1.jpg" alt=""> 
+                            </a>
+                        </div>
+                        <div class="sec_item_desc">
+                            <div class="item_desc_title">더콤마</div>
+                            <div class="o_price">300,000원</div>
+                            <div class="s_price">200,000원</div>
+                            <div class="item_desc">상품에 대한 설명이 표시됩니다.</div>
+                        </div>
+                    </li>   -->
+
+                </ul>
+            </div>
+        </div>
+
+        
+    </div>
+    <div class="footer"></div>
+</div>
+
+<div class="layer_popup" ondragstart="return false">
+    <div class="popup_body">
+        <div class="popup_big_img">
+            <img src="./img/theComma/popup/big_img_01.jpg" alt="" class="popup_img">
+            <img src="./img/theComma/popup/big_img_02.jpg" alt="" class="popup_img">
+            <img src="./img/theComma/popup/big_img_03.jpg" alt="" class="popup_img">
+            <img src="./img/theComma/popup/big_img_04.jpg" alt="" class="popup_img">
+            <img src="./img/theComma/popup/big_img_05.jpg" alt="" class="popup_img">
+            <img src="./img/theComma/popup/big_img_06.jpg" alt="" class="popup_img">
+        </div>
+        <div class="popup_img_btn">
+            <div class="popup_btn">세일이벤트</div>
+            <div class="popup_btn">카카오스토리</div>
+            <div class="popup_btn">신상품바로가기</div>
+            <div class="popup_btn">INSTAGRAM<br>인스타그램팔로우</div>
+            <div class="popup_btn">REVIEW<br>구매후기이벤트</div>
+            <div class="popup_btn">JOIN<br>회원가입이벤트</div>
+        </div>
+    </div>
+    <div class="popup_footer">
+        <div class="btn_close_today">오늘하루 열지 않기</div>
+        <div class="btn_close">닫기</div>
+    </div>
+</div>
+
+
+<script src="./js/243.load_list.js"></script>
+<script src="./js/243.header_footer.js"></script>
+<script src="./js/243.index.js"></script>
+</body>
+</html>
